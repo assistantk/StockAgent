@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StockAgent | AI Multi-Agent Trading Simulation</title>
+  <meta name="description" content="Simulated real-world financial market with autonomous LLM trading agents, live order books, and sentiment dynamics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+      <div class="logo-area">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+            <polyline points="16 7 22 7 22 13"></polyline>
+          </svg>
+        </div>
+        <div>
+          <h1 class="logo-title">StockAgent <span class="logo-badge">Live Market</span></h1>
+          <p class="logo-sub">Multi-Agent LLM Market Simulation Platform</p>
+        </div>
+      </div>
+
+      <div class="navbar-right">
+        <div class="status-pill" id="simStatusPill">
+          <span class="status-dot" id="simStatusDot"></span>
+          <span id="simStatusText">Ready</span>
+        </div>
+        <div class="api-provider-badge">
+          <span class="provider-label">Provider</span>
+          <span class="provider-name" id="providerName">Groq AI</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Top Live Market Ticker Row -->
+    <section class="ticker-grid">
+      <div class="ticker-card stock-a-card">
+        <div class="ticker-header">
+          <span class="stock-badge badge-a">Stock A</span>
+          <span class="stock-company">Chemical Industry Corp</span>
+        </div>
+        <div class="ticker-body">
+          <div class="price-value" id="priceStockA">$26.78</div>
+          <div class="price-change positive" id="changeStockA">+0.00%</div>
+        </div>
+        <div class="ticker-meta">
+          <span>Initial: $26.78</span>
+          <span id="volumeStockA">Shares: 2.0M</span>
+        </div>
+      </div>
+
+      <div class="ticker-card stock-b-card">
+        <div class="ticker-header">
+          <span class="stock-badge badge-b">Stock B</span>
+          <span class="stock-company">Tech High-Growth Corp</span>
+        </div>
+        <div class="ticker-body">
+          <div class="price-value" id="priceStockB">$42.22</div>
+          <div class="price-change positive" id="changeStockB">+0.00%</div>
+        </div>
+        <div class="ticker-meta">
+          <span>Initial: $42.22</span>
+          <span id="volumeStockB">Shares: 1.0M</span>
+        </div>
+      </div>
+
+      <div class="ticker-card metric-card">
+        <div class="metric-title">Simulated Trades</div>
+        <div class="metric-big" id="totalTradesCount">0</div>
+        <div class="ticker-meta">
+          <span>Total Volume:</span>
+          <span id="totalVolumeShares">0 shares</span>
+        </div>
+      </div>
+
+      <div class="ticker-card metric-card">
+        <div class="metric-title">Market Progress</div>
+        <div class="metric-big" id="simProgressDays">Day 1 / 2</div>
+        <div class="ticker-meta">
+          <span id="simCurrentSession">Session: 1</span>
+          <span id="activeAgentsCount">Agents: 10</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simulation Control & Parameter Bar -->
+    <section class="control-panel glass-card">
+      <div class="control-grid">
+        <div class="form-group">
+          <label for="modelSelect">LLM Engine</label>
+          <select id="modelSelect" class="custom-select">
+            <option value="openai/gpt-oss-120b" selected>Groq: GPT-OSS 120B (High Quality)</option>
+            <option value="qwen/qwen3.8-27b">Groq: Qwen 3.8 27B (Ultra Fast)</option>
+            <option value="gemini-pro">Google Gemini Pro</option>
+            <option value="gpt-3.5-turbo">OpenAI GPT-3.5 Turbo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="agentsInput">Agents Count: <span class="range-val" id="agentsVal">10</span></label>
+          <input type="range" id="agentsInput" min="2" max="50" value="10" step="1" class="custom-range">
+        </div>
+
+        <div class="form-group">
+          <label for="daysInput">Trading Days: <span class="range-val" id="daysVal">2</span></label>
+          <input type="range" id="daysInput" min="1" max="10" value="2" step="1" class="custom-range">
+        </div>
+
+        <div class="form-group">
+          <label for="sessionsInput">Sessions/Day: <span class="range-val" id="sessionsVal">2</span></label>
+          <input type="range" id="sessionsInput" min="1" max="3" value="2" step="1" class="custom-range">
+        </div>
+
+        <div class="control-buttons">
+          <button id="btnStartSim" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Launch Simulation
+          </button>
+          <button id="btnStopSim" class="btn btn-danger" disabled>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="6" y="6" width="12" height="12"></rect></svg>
+            Stop
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Layout (2 Columns) -->
+    <div class="main-layout">
+      <!-- Left Column: Chart & Agents -->
+      <div class="column-left">
+        <!-- Stock Price Movement Chart -->
+        <div class="glass-card chart-container">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Stock Price Dynamics</h2>
+              <p class="card-sub">Session-by-session price discovery driven by LLM order matching</p>
+            </div>
+            <div class="chart-legend">
+              <span class="legend-item"><span class="legend-color color-a"></span> Stock A</span>
+              <span class="legend-item"><span class="legend-color color-b"></span> Stock B</span>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="priceChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Agent Portfolios & Leaderboard -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Agent Leaderboard & Holdings</h2>
+              <p class="card-sub">Wealth allocation, risk personality & current trading states</p>
+            </div>
+            <span class="badge-neutral" id="agentCountBadge">0 Agents</span>
+          </div>
+          <div class="table-responsive">
+            <table class="custom-table" id="agentsTable">
+              <thead>
+                <tr>
+                  <th>Trader</th>
+                  <th>Persona</th>
+                  <th>Total Valuation</th>
+                  <th>Cash Reserves</th>
+                  <th>Stock A</th>
+                  <th>Stock B</th>
+                  <th>Recent Action</th>
+                </tr>
+              </thead>
+              <tbody id="agentsTableBody">
+                <tr>
+                  <td colspan="7" class="empty-state">Loading simulation agents...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Trades Feed & Forum & Terminal -->
+      <div class="column-right">
+        <!-- Live Trades Activity Feed -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Market Transactions</h2>
+              <p class="card-sub">Recent matched transactions</p>
+            </div>
+            <span class="live-indicator"><span class="pulse-ring"></span> Live Stream</span>
+          </div>
+          <div class="trades-feed" id="tradesFeed">
+            <div class="empty-state">No trades executed yet. Launch a simulation to view live order execution!</div>
+          </div>
+        </div>
+
+        <!-- Agent Community Forum & Sentiment -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Agent Trading Insights</h2>
+              <p class="card-sub">End-of-day market commentary & shared reasoning</p>
+            </div>
+          </div>
+          <div class="forum-feed" id="forumFeed">
+            <div class="empty-state">No forum posts yet. Agents post insights at the end of each trading day.</div>
+          </div>
+        </div>
+
+        <!-- Terminal Console Logs -->
+        <div class="glass-card terminal-card">
+          <div class="card-header terminal-header">
+            <div class="terminal-title">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span>Simulation Execution Console</span>
+            </div>
+            <button id="btnClearLog" class="btn-text">Clear View</button>
+          </div>
+          <div class="terminal-body" id="terminalConsole">
+            <div class="terminal-line text-muted">[System] Connected to StockAgent backend. Ready to simulate.</div>
+          </div>
+        </div>
+
+        <!-- Report Download Center -->
+        <div class="glass-card download-card">
+          <h3 class="card-title">Simulation Exports</h3>
+          <p class="card-sub">Download generated transaction ledgers & agent records in Excel (.xlsx)</p>
+          <div class="download-grid">
+            <a href="/api/download/trades.xlsx" class="download-btn" target="_blank" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              trades.xlsx
+            </a>
+            <a href="/api/download/stocks.xlsx" class="download-btn" target="_blank" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              stocks.xlsx
+            </a>
+            <a href="/api/download/agent_session_record.xlsx" class="download-btn" target="_blank" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              session_records.xlsx
+            </a>
+            <a href="/api/download/agent_day_record.xlsx" class="download-btn" target="_blank" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              day_records.xlsx
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

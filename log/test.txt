@@ -1,0 +1,503 @@
+2026-10-27 13:39:32,359 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 13:39:32,359 - Stocklogger - DEBUG - cash: 2135835.4254485755, stock a: 2367, stock b:39570, debt: [{'loan': 'yes', 'amount': 1297622.5860246464, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 13:39:32,359 - Stocklogger - DEBUG - cash: 335694.73061907885, stock a: 35162, stock b:84375, debt: [{'loan': 'yes', 'amount': 4665215.215140487, 'loan_type': 0, 'repayment_date': 220}]
+2026-10-27 13:39:32,360 - Stocklogger - DEBUG - cash: 2099138.640797711, stock a: 513, stock b:61726, debt: [{'loan': 'yes', 'amount': 708326.3199678658, 'loan_type': 0, 'repayment_date': 242}]
+2026-10-27 13:39:32,360 - Stocklogger - DEBUG - cash: 2256233.4415131053, stock a: 26829, stock b:18952, debt: [{'loan': 'yes', 'amount': 511952.47480212315, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 13:39:32,362 - Stocklogger - DEBUG - cash: 1985873.457782904, stock a: 66064, stock b:1944, debt: [{'loan': 'yes', 'amount': 1150105.9875379333, 'loan_type': 0, 'repayment_date': 176}]
+2026-10-27 13:39:32,362 - Stocklogger - DEBUG - cash: 1097884.8366815068, stock a: 61559, stock b:31430, debt: [{'loan': 'yes', 'amount': 369681.32424779976, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 13:39:32,362 - Stocklogger - DEBUG - cash: 1486244.4535205588, stock a: 57954, stock b:31033, debt: [{'loan': 'yes', 'amount': 1843114.5552378553, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 202856.06441284076, stock a: 43996, stock b:17745, debt: [{'loan': 'yes', 'amount': 1665654.532455656, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 3999466.952768333, stock a: 9502, stock b:8796, debt: [{'loan': 'yes', 'amount': 2005174.5331718717, 'loan_type': 2, 'repayment_date': 154}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 1847156.8735711835, stock a: 46978, stock b:11349, debt: [{'loan': 'yes', 'amount': 1050071.095469951, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 601588.5008988553, stock a: 22392, stock b:5275, debt: [{'loan': 'yes', 'amount': 1314224.521009459, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 2208770.1318613323, stock a: 60441, stock b:2966, debt: [{'loan': 'yes', 'amount': 791335.4228033259, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 811934.1546098785, stock a: 75550, stock b:17936, debt: [{'loan': 'yes', 'amount': 983845.6430840703, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 1291722.7178538926, stock a: 4408, stock b:32027, debt: [{'loan': 'yes', 'amount': 647419.2322943012, 'loan_type': 0, 'repayment_date': 176}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 1573528.4010822114, stock a: 69317, stock b:26682, debt: [{'loan': 'yes', 'amount': 507771.6794334175, 'loan_type': 0, 'repayment_date': 66}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 31351.571130350807, stock a: 18981, stock b:43889, debt: [{'loan': 'yes', 'amount': 711559.0691806822, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 32099.994644612663, stock a: 124834, stock b:8699, debt: [{'loan': 'yes', 'amount': 570105.4916960574, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 957117.1614843577, stock a: 116578, stock b:10878, debt: [{'loan': 'yes', 'amount': 3081592.7158481306, 'loan_type': 2, 'repayment_date': 22}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 940328.5780794047, stock a: 54321, stock b:36044, debt: [{'loan': 'yes', 'amount': 357467.8948606708, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 13:39:32,363 - Stocklogger - DEBUG - cash: 843036.2730649054, stock a: 28732, stock b:48715, debt: [{'loan': 'yes', 'amount': 3056804.24578926, 'loan_type': 0, 'repayment_date': 242}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 59374.328845688826, stock a: 86124, stock b:23951, debt: [{'loan': 'yes', 'amount': 578492.7471138968, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 890479.0208049245, stock a: 85620, stock b:27038, debt: [{'loan': 'yes', 'amount': 4221057.328265864, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 347085.29923313524, stock a: 60982, stock b:39268, debt: [{'loan': 'yes', 'amount': 1652286.5691711963, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 1034077.8911482324, stock a: 23736, stock b:38451, debt: [{'loan': 'yes', 'amount': 2423984.619243341, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 1809399.715953927, stock a: 72908, stock b:8585, debt: [{'loan': 'yes', 'amount': 3903690.9094306156, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 1711533.446839026, stock a: 23046, stock b:38184, debt: [{'loan': 'yes', 'amount': 3446303.123007869, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 275463.92029390077, stock a: 61361, stock b:42946, debt: [{'loan': 'yes', 'amount': 2884139.414446894, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 13:39:32,364 - Stocklogger - DEBUG - cash: 69047.03010517765, stock a: 63418, stock b:51611, debt: [{'loan': 'yes', 'amount': 1273125.6293232956, 'loan_type': 2, 'repayment_date': 264}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 2332514.621591403, stock a: 3152, stock b:40665, debt: [{'loan': 'yes', 'amount': 511608.9107997718, 'loan_type': 0, 'repayment_date': 44}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 3552475.8460483826, stock a: 25421, stock b:10125, debt: [{'loan': 'yes', 'amount': 589098.2075316325, 'loan_type': 1, 'repayment_date': 176}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 1852966.507824021, stock a: 11759, stock b:35638, debt: [{'loan': 'yes', 'amount': 2348632.7972584185, 'loan_type': 0, 'repayment_date': 154}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 135006.9485262001, stock a: 45165, stock b:59293, debt: [{'loan': 'yes', 'amount': 636675.3624704164, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 4178917.3653344666, stock a: 9594, stock b:5045, debt: [{'loan': 'yes', 'amount': 4471854.884836847, 'loan_type': 2, 'repayment_date': 132}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 810642.1904358868, stock a: 12300, stock b:29773, debt: [{'loan': 'yes', 'amount': 771675.9482188801, 'loan_type': 0, 'repayment_date': 132}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 1151018.6640585351, stock a: 89869, stock b:24968, debt: [{'loan': 'yes', 'amount': 95392.79927260891, 'loan_type': 1, 'repayment_date': 176}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 424701.34149923065, stock a: 73139, stock b:13401, debt: [{'loan': 'yes', 'amount': 697310.3609608184, 'loan_type': 0, 'repayment_date': 66}]
+2026-10-27 13:39:32,365 - Stocklogger - DEBUG - cash: 1907088.9253374317, stock a: 65608, stock b:24338, debt: [{'loan': 'yes', 'amount': 4508417.875407127, 'loan_type': 1, 'repayment_date': 110}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 488942.5891809335, stock a: 25135, stock b:87890, debt: [{'loan': 'yes', 'amount': 3405908.395557669, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 1832071.0458347134, stock a: 14811, stock b:47206, debt: [{'loan': 'yes', 'amount': 3237366.0011456124, 'loan_type': 0, 'repayment_date': 242}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 1836923.1793133283, stock a: 23101, stock b:6703, debt: [{'loan': 'yes', 'amount': 1069469.5265322963, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 1138735.3890088287, stock a: 73822, stock b:14997, debt: [{'loan': 'yes', 'amount': 3675586.786472464, 'loan_type': 2, 'repayment_date': 198}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 461537.50642604794, stock a: 26943, stock b:75285, debt: [{'loan': 'yes', 'amount': 1062423.4233527852, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 3142377.0162548376, stock a: 16296, stock b:23535, debt: [{'loan': 'yes', 'amount': 1662781.6035713684, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 4023048.5574573632, stock a: 15573, stock b:1031, debt: [{'loan': 'yes', 'amount': 2510937.3919234443, 'loan_type': 0, 'repayment_date': 66}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 140481.19706590922, stock a: 58502, stock b:51260, debt: [{'loan': 'yes', 'amount': 2033196.178155416, 'loan_type': 2, 'repayment_date': 198}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 999861.4115898247, stock a: 35491, stock b:10710, debt: [{'loan': 'yes', 'amount': 1681098.1382291946, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 2840876.557153804, stock a: 42388, stock b:18196, debt: [{'loan': 'yes', 'amount': 409597.41462361696, 'loan_type': 1, 'repayment_date': 110}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 791317.9318370284, stock a: 67606, stock b:12316, debt: [{'loan': 'yes', 'amount': 809638.6275408362, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 13:39:32,366 - Stocklogger - DEBUG - cash: 276624.1349903703, stock a: 7913, stock b:45324, debt: [{'loan': 'yes', 'amount': 687861.4666465021, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 13:39:32,367 - Stocklogger - DEBUG - cash: 1939195.1709996357, stock a: 13821, stock b:41498, debt: [{'loan': 'yes', 'amount': 1509810.8408643429, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 13:39:32,367 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 13:39:32,367 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 13:41:26,087 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 13:41:26,087 - Stocklogger - DEBUG - cash: 257929.82861434776, stock a: 25907, stock b:72078, debt: [{'loan': 'yes', 'amount': 1115.9701214574768, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 13:41:26,088 - Stocklogger - DEBUG - cash: 1619760.9898192293, stock a: 21828, stock b:11153, debt: [{'loan': 'yes', 'amount': 1454692.752757405, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 13:41:26,088 - Stocklogger - DEBUG - cash: 117319.85402820166, stock a: 141982, stock b:3825, debt: [{'loan': 'yes', 'amount': 3407381.756967512, 'loan_type': 2, 'repayment_date': 220}]
+2026-10-27 13:41:26,088 - Stocklogger - DEBUG - cash: 1059830.8229290587, stock a: 28486, stock b:45307, debt: [{'loan': 'yes', 'amount': 2274951.4174011955, 'loan_type': 2, 'repayment_date': 264}]
+2026-10-27 13:41:26,088 - Stocklogger - DEBUG - cash: 1054224.0333536267, stock a: 124160, stock b:9024, debt: [{'loan': 'yes', 'amount': 4240405.7331151655, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 1457451.675058114, stock a: 9260, stock b:47712, debt: [{'loan': 'yes', 'amount': 575348.1089546552, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 2558254.960955235, stock a: 36098, stock b:27403, debt: [{'loan': 'yes', 'amount': 2442867.306724034, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 701121.4846873154, stock a: 47303, stock b:55995, debt: [{'loan': 'yes', 'amount': 2539835.8841961394, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 679970.2549014396, stock a: 132549, stock b:8619, debt: [{'loan': 'yes', 'amount': 2644835.552172769, 'loan_type': 1, 'repayment_date': 242}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 3279195.953785214, stock a: 26483, stock b:10334, debt: [{'loan': 'yes', 'amount': 3677047.525281472, 'loan_type': 2, 'repayment_date': 198}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 645242.0235607242, stock a: 59260, stock b:4158, debt: [{'loan': 'yes', 'amount': 2095372.855886724, 'loan_type': 1, 'repayment_date': 242}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 706862.9939351734, stock a: 54632, stock b:61592, debt: [{'loan': 'yes', 'amount': 4510721.577710255, 'loan_type': 2, 'repayment_date': 198}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 1735694.574561057, stock a: 94463, stock b:10016, debt: [{'loan': 'yes', 'amount': 2661856.925528735, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 1888067.8370963477, stock a: 56152, stock b:30983, debt: [{'loan': 'yes', 'amount': 3206759.486821162, 'loan_type': 2, 'repayment_date': 264}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 286946.3764975505, stock a: 30270, stock b:78977, debt: [{'loan': 'yes', 'amount': 2652972.894299644, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 1032118.7590984731, stock a: 107281, stock b:5738, debt: [{'loan': 'yes', 'amount': 906652.2828271507, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 13:41:26,089 - Stocklogger - DEBUG - cash: 348113.53796344704, stock a: 87798, stock b:42602, debt: [{'loan': 'yes', 'amount': 3573486.6845738916, 'loan_type': 0, 'repayment_date': 44}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 124222.02895938983, stock a: 70939, stock b:59442, debt: [{'loan': 'yes', 'amount': 1366213.4170851076, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 3687010.967409033, stock a: 2940, stock b:22402, debt: [{'loan': 'yes', 'amount': 4615397.049813832, 'loan_type': 2, 'repayment_date': 220}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 2652558.5772582036, stock a: 45325, stock b:17219, debt: [{'loan': 'yes', 'amount': 781846.7709143356, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 2902252.564662616, stock a: 58167, stock b:394, debt: [{'loan': 'yes', 'amount': 3143991.144655401, 'loan_type': 0, 'repayment_date': 154}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 417815.65604094684, stock a: 15144, stock b:59759, debt: [{'loan': 'yes', 'amount': 1341509.1817596552, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 2333906.7272442137, stock a: 17725, stock b:4270, debt: [{'loan': 'yes', 'amount': 1290115.5609302723, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 1426897.8492651985, stock a: 83095, stock b:9367, debt: [{'loan': 'yes', 'amount': 2017152.7328435723, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 1999715.4081555863, stock a: 16058, stock b:60708, debt: [{'loan': 'yes', 'amount': 885898.9251203369, 'loan_type': 0, 'repayment_date': 176}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 260523.1344552278, stock a: 70949, stock b:45360, debt: [{'loan': 'yes', 'amount': 2193349.152593165, 'loan_type': 2, 'repayment_date': 132}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 1075910.481318994, stock a: 50470, stock b:31823, debt: [{'loan': 'yes', 'amount': 2928314.472055228, 'loan_type': 1, 'repayment_date': 110}]
+2026-10-27 13:41:26,090 - Stocklogger - DEBUG - cash: 1157158.454389563, stock a: 20596, stock b:72359, debt: [{'loan': 'yes', 'amount': 3066632.8417907148, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 13:41:26,091 - Stocklogger - DEBUG - cash: 2401043.5546423574, stock a: 78992, stock b:3969, debt: [{'loan': 'yes', 'amount': 1206968.691279513, 'loan_type': 0, 'repayment_date': 154}]
+2026-10-27 13:41:26,092 - Stocklogger - DEBUG - cash: 324372.8825706421, stock a: 81143, stock b:38754, debt: [{'loan': 'yes', 'amount': 1391165.1087092897, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 13:41:26,092 - Stocklogger - DEBUG - cash: 1610102.761858132, stock a: 6746, stock b:17343, debt: [{'loan': 'yes', 'amount': 777616.9345293122, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 48047.75954281637, stock a: 29350, stock b:73872, debt: [{'loan': 'yes', 'amount': 176835.21342286846, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 279221.32497058104, stock a: 3894, stock b:100602, debt: [{'loan': 'yes', 'amount': 2817695.1951759965, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 1990284.6809424346, stock a: 83322, stock b:12096, debt: [{'loan': 'yes', 'amount': 4203255.609726184, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 1183399.9237209181, stock a: 98749, stock b:11494, debt: [{'loan': 'yes', 'amount': 581852.9557447261, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 1109630.795898786, stock a: 111931, stock b:14870, debt: [{'loan': 'yes', 'amount': 2249058.7430021362, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 3313949.5232597687, stock a: 53431, stock b:959, debt: [{'loan': 'yes', 'amount': 2499030.661500574, 'loan_type': 1, 'repayment_date': 264}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 2119857.1577058984, stock a: 80138, stock b:5523, debt: [{'loan': 'yes', 'amount': 2503903.9573435932, 'loan_type': 1, 'repayment_date': 176}]
+2026-10-27 13:41:26,093 - Stocklogger - DEBUG - cash: 888167.1603443336, stock a: 85426, stock b:22584, debt: [{'loan': 'yes', 'amount': 3511981.505748421, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 13:41:26,094 - Stocklogger - DEBUG - cash: 926167.6226633625, stock a: 119625, stock b:13169, debt: [{'loan': 'yes', 'amount': 2412925.848661855, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 13:41:26,094 - Stocklogger - DEBUG - cash: 4125748.522252316, stock a: 8104, stock b:12063, debt: [{'loan': 'yes', 'amount': 2382569.616299584, 'loan_type': 2, 'repayment_date': 220}]
+2026-10-27 13:41:26,094 - Stocklogger - DEBUG - cash: 2404831.460760089, stock a: 6991, stock b:49654, debt: [{'loan': 'yes', 'amount': 700528.1984725603, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 13:41:26,094 - Stocklogger - DEBUG - cash: 1246347.0288283934, stock a: 30147, stock b:42272, debt: [{'loan': 'yes', 'amount': 124828.05219139748, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 13:41:26,094 - Stocklogger - DEBUG - cash: 1209780.6803724759, stock a: 26201, stock b:43996, debt: [{'loan': 'yes', 'amount': 2185267.1882967507, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - cash: 26647.65479315989, stock a: 48523, stock b:50620, debt: [{'loan': 'yes', 'amount': 1397761.872995385, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - cash: 1793492.608918913, stock a: 5534, stock b:15910, debt: [{'loan': 'yes', 'amount': 29045.952162980448, 'loan_type': 1, 'repayment_date': 176}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - cash: 3577784.243962241, stock a: 5236, stock b:9300, debt: [{'loan': 'yes', 'amount': 2379365.6974020298, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - cash: 1253678.4740716838, stock a: 34374, stock b:19927, debt: [{'loan': 'yes', 'amount': 2448940.249370478, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - cash: 725656.5183050695, stock a: 20773, stock b:49040, debt: [{'loan': 'yes', 'amount': 428307.2263104687, 'loan_type': 2, 'repayment_date': 88}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - cash: 3038446.536455231, stock a: 29153, stock b:5658, debt: [{'loan': 'yes', 'amount': 2480468.059248703, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 13:41:26,095 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 13:41:38,039 - Stocklogger - WARNING - Gemini api retry...
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-10-27 13:41:50,835 - Stocklogger - WARNING - Gemini api retry...
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-10-27 13:41:51,850 - Stocklogger - ERROR - ERROR: GEMINI API FAILED. SKIP THIS INTERACTION.
+2026-10-27 13:56:28,139 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 13:56:28,139 - Stocklogger - DEBUG - cash: 1198495.413275939, stock a: 59878, stock b:51906, debt: [{'loan': 'yes', 'amount': 1689902.1183186457, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 13:56:28,139 - Stocklogger - DEBUG - cash: 1022964.7562808375, stock a: 268, stock b:61852, debt: [{'loan': 'yes', 'amount': 3020880.4321440263, 'loan_type': 2, 'repayment_date': 264}]
+2026-10-27 13:56:28,140 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 13:56:28,140 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 13:56:30,337 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1614254.2566386473, 'repayment_date': 67}
+2026-10-27 13:56:31,857 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 620963.4041368109, 'repayment_date': 23}
+2026-10-27 13:56:31,857 - Stocklogger - DEBUG - SESSION 1
+2026-10-27 13:56:35,004 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 66613, 'price': 42.2}
+2026-10-27 13:56:37,752 - Stocklogger - INFO - INFO: Agent 1 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 61852, 'price': 42.2}
+2026-10-27 13:56:37,792 - Stocklogger - INFO - ACTION - BUY:0, SELL:1, STOCK:B, PRICE:42.2, AMOUNT:61852
+2026-10-27 13:56:39,385 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'yes', 'sell_B': 'no', 'loan': 'yes'}
+2026-10-27 13:56:49,554 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'yes', 'sell_B': 'no', 'loan': 'yes'}
+2026-10-27 13:56:49,570 - Stocklogger - DEBUG - DAY 1 ends, display forum messages...
+2026-10-27 13:57:08,348 - Stocklogger - DEBUG - --------Simulation finished!--------
+2026-10-27 13:57:08,348 - Stocklogger - DEBUG - --------Agents action history--------
+2026-10-27 14:27:26,275 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 14:27:26,276 - Stocklogger - DEBUG - cash: 584409.7476401228, stock a: 109124, stock b:26003, debt: [{'loan': 'yes', 'amount': 4473938.705830537, 'loan_type': 2, 'repayment_date': 22}]
+2026-10-27 14:27:26,279 - Stocklogger - DEBUG - cash: 945025.6960388249, stock a: 16374, stock b:35178, debt: [{'loan': 'yes', 'amount': 2644527.501979897, 'loan_type': 2, 'repayment_date': 154}]
+2026-10-27 14:27:26,281 - Stocklogger - DEBUG - cash: 1772036.7078676773, stock a: 7765, stock b:71235, debt: [{'loan': 'yes', 'amount': 1661625.3265117258, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 14:27:26,282 - Stocklogger - DEBUG - cash: 1875330.1785394454, stock a: 58433, stock b:20743, debt: [{'loan': 'yes', 'amount': 1230713.9507883603, 'loan_type': 2, 'repayment_date': 220}]
+2026-10-27 14:27:26,283 - Stocklogger - DEBUG - cash: 630397.029966312, stock a: 19319, stock b:87417, debt: [{'loan': 'yes', 'amount': 193827.44639549087, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 14:27:26,284 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 14:27:26,285 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 14:27:29,218 - Stocklogger - INFO - INFO: Agent 0 decide not to loan
+2026-10-27 14:27:31,094 - Stocklogger - INFO - INFO: Agent 1 decide not to loan
+2026-10-27 14:27:33,116 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 3326294.781355951, 'repayment_date': 45}
+2026-10-27 14:27:34,856 - Stocklogger - INFO - INFO: Agent 3 decide not to loan
+2026-10-27 14:28:18,136 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 14:28:18,137 - Stocklogger - DEBUG - cash: 1182286.1969988875, stock a: 47545, stock b:29498, debt: [{'loan': 'yes', 'amount': 819514.1671049028, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 14:28:18,140 - Stocklogger - DEBUG - cash: 1610655.1928159618, stock a: 37971, stock b:55952, debt: [{'loan': 'yes', 'amount': 3918771.5152672087, 'loan_type': 0, 'repayment_date': 44}]
+2026-10-27 14:28:18,141 - Stocklogger - DEBUG - cash: 815555.497838748, stock a: 24739, stock b:58346, debt: [{'loan': 'yes', 'amount': 955992.2291934064, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 14:28:18,143 - Stocklogger - DEBUG - cash: 275455.8422771713, stock a: 113447, stock b:9815, debt: [{'loan': 'yes', 'amount': 1132490.8743017693, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 14:28:18,145 - Stocklogger - DEBUG - cash: 2716251.920287821, stock a: 8577, stock b:43333, debt: [{'loan': 'yes', 'amount': 1070169.612721531, 'loan_type': 1, 'repayment_date': 242}]
+2026-10-27 14:28:18,189 - Stocklogger - DEBUG - cash: 3237145.4934691405, stock a: 9189, stock b:35145, debt: [{'loan': 'yes', 'amount': 1487921.7670724865, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 14:28:18,225 - Stocklogger - DEBUG - cash: 894877.7607833291, stock a: 36945, stock b:20484, debt: [{'loan': 'yes', 'amount': 2416925.758336059, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 14:28:18,226 - Stocklogger - DEBUG - cash: 27478.567242846253, stock a: 158112, stock b:8999, debt: [{'loan': 'yes', 'amount': 4545141.605712225, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 14:28:18,227 - Stocklogger - DEBUG - cash: 2264346.547457815, stock a: 7936, stock b:2129, debt: [{'loan': 'yes', 'amount': 230357.33119099177, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 14:28:18,228 - Stocklogger - DEBUG - cash: 466039.1232261607, stock a: 1575, stock b:61703, debt: [{'loan': 'yes', 'amount': 2188406.103610805, 'loan_type': 1, 'repayment_date': 132}]
+2026-10-27 14:28:18,229 - Stocklogger - DEBUG - cash: 1877464.9047328213, stock a: 51877, stock b:13124, debt: [{'loan': 'yes', 'amount': 1273636.7207617145, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 14:28:18,229 - Stocklogger - DEBUG - cash: 507081.20864616014, stock a: 51614, stock b:41339, debt: [{'loan': 'yes', 'amount': 2849046.6323132594, 'loan_type': 2, 'repayment_date': 198}]
+2026-10-27 14:28:18,231 - Stocklogger - DEBUG - cash: 1044614.6272362372, stock a: 61006, stock b:49452, debt: [{'loan': 'yes', 'amount': 722738.086511669, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 14:28:18,231 - Stocklogger - DEBUG - cash: 1927801.2014156936, stock a: 101057, stock b:2587, debt: [{'loan': 'yes', 'amount': 3966848.1605831548, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 14:28:18,233 - Stocklogger - DEBUG - cash: 642640.7509097598, stock a: 25790, stock b:34435, debt: [{'loan': 'yes', 'amount': 2021554.9342333816, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 14:28:18,234 - Stocklogger - DEBUG - cash: 1071413.0832448292, stock a: 55443, stock b:55702, debt: [{'loan': 'yes', 'amount': 2674722.543291017, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 14:28:18,234 - Stocklogger - DEBUG - cash: 1024766.2491871001, stock a: 4583, stock b:47282, debt: [{'loan': 'yes', 'amount': 2985775.082688615, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 14:28:18,235 - Stocklogger - DEBUG - cash: 3391557.6013899073, stock a: 12347, stock b:1875, debt: [{'loan': 'yes', 'amount': 2453400.218481292, 'loan_type': 2, 'repayment_date': 22}]
+2026-10-27 14:28:18,235 - Stocklogger - DEBUG - cash: 716311.9259377476, stock a: 21858, stock b:52550, debt: [{'loan': 'yes', 'amount': 96362.98879990791, 'loan_type': 1, 'repayment_date': 110}]
+2026-10-27 14:28:18,236 - Stocklogger - DEBUG - cash: 2016664.260697491, stock a: 20310, stock b:6096, debt: [{'loan': 'yes', 'amount': 1704849.4229989152, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 14:28:18,237 - Stocklogger - DEBUG - cash: 788723.0941453826, stock a: 110515, stock b:7137, debt: [{'loan': 'yes', 'amount': 825309.5354676981, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 14:28:18,238 - Stocklogger - DEBUG - cash: 202231.91333020973, stock a: 120057, stock b:21067, debt: [{'loan': 'yes', 'amount': 2392419.8861947223, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 14:28:18,238 - Stocklogger - DEBUG - cash: 2419915.005012132, stock a: 30660, stock b:8318, debt: [{'loan': 'yes', 'amount': 2641061.05724465, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 14:28:18,240 - Stocklogger - DEBUG - cash: 1311025.8933419527, stock a: 65427, stock b:18269, debt: [{'loan': 'yes', 'amount': 2632725.1925619836, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 14:28:18,246 - Stocklogger - DEBUG - cash: 388091.03559588385, stock a: 95966, stock b:39894, debt: [{'loan': 'yes', 'amount': 79384.33367271791, 'loan_type': 2, 'repayment_date': 88}]
+2026-10-27 14:28:18,249 - Stocklogger - DEBUG - cash: 2313677.221251471, stock a: 33623, stock b:23707, debt: [{'loan': 'yes', 'amount': 2599577.7319868146, 'loan_type': 2, 'repayment_date': 22}]
+2026-10-27 14:28:18,252 - Stocklogger - DEBUG - cash: 839482.6542234274, stock a: 21802, stock b:36879, debt: [{'loan': 'yes', 'amount': 443237.44741060265, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 14:28:18,253 - Stocklogger - DEBUG - cash: 944114.8542969507, stock a: 67525, stock b:28723, debt: [{'loan': 'yes', 'amount': 1419676.4170648125, 'loan_type': 0, 'repayment_date': 154}]
+2026-10-27 14:28:18,253 - Stocklogger - DEBUG - cash: 879869.3692274567, stock a: 80827, stock b:36530, debt: [{'loan': 'yes', 'amount': 2835864.543243937, 'loan_type': 2, 'repayment_date': 132}]
+2026-10-27 14:28:18,254 - Stocklogger - DEBUG - cash: 225977.09050480253, stock a: 13605, stock b:70304, debt: [{'loan': 'yes', 'amount': 2892144.5832039323, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 14:28:18,255 - Stocklogger - DEBUG - cash: 786932.8539513648, stock a: 47775, stock b:10760, debt: [{'loan': 'yes', 'amount': 604982.6396318392, 'loan_type': 1, 'repayment_date': 242}]
+2026-10-27 14:28:18,257 - Stocklogger - DEBUG - cash: 1789557.1805900135, stock a: 36193, stock b:20926, debt: [{'loan': 'yes', 'amount': 3255762.1191876964, 'loan_type': 0, 'repayment_date': 242}]
+2026-10-27 14:28:18,259 - Stocklogger - DEBUG - cash: 2112705.1875678375, stock a: 27526, stock b:19536, debt: [{'loan': 'yes', 'amount': 2768876.8451179364, 'loan_type': 0, 'repayment_date': 22}]
+2026-10-27 14:28:18,259 - Stocklogger - DEBUG - cash: 124089.3264842624, stock a: 4306, stock b:94748, debt: [{'loan': 'yes', 'amount': 2998584.7650410556, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 14:28:18,260 - Stocklogger - DEBUG - cash: 881974.1881194531, stock a: 25714, stock b:60753, debt: [{'loan': 'yes', 'amount': 880493.1673860777, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 14:28:18,260 - Stocklogger - DEBUG - cash: 2823167.33681013, stock a: 15894, stock b:9044, debt: [{'loan': 'yes', 'amount': 2890934.4275843073, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 14:28:18,261 - Stocklogger - DEBUG - cash: 1388498.4240600378, stock a: 8939, stock b:50733, debt: [{'loan': 'yes', 'amount': 756719.669107776, 'loan_type': 1, 'repayment_date': 264}]
+2026-10-27 14:28:18,262 - Stocklogger - DEBUG - cash: 3390370.1091320515, stock a: 832, stock b:1161, debt: [{'loan': 'yes', 'amount': 2285543.1653054785, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 14:28:18,262 - Stocklogger - DEBUG - cash: 638513.2832189733, stock a: 14220, stock b:12246, debt: [{'loan': 'yes', 'amount': 631468.8061208951, 'loan_type': 0, 'repayment_date': 220}]
+2026-10-27 14:28:18,263 - Stocklogger - DEBUG - cash: 553325.7173744838, stock a: 47165, stock b:42023, debt: [{'loan': 'yes', 'amount': 2550917.178721306, 'loan_type': 2, 'repayment_date': 88}]
+2026-10-27 14:28:18,263 - Stocklogger - DEBUG - cash: 1126235.397874451, stock a: 20366, stock b:58699, debt: [{'loan': 'yes', 'amount': 2535314.4213531064, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 14:28:18,265 - Stocklogger - DEBUG - cash: 625408.0757526542, stock a: 94224, stock b:19697, debt: [{'loan': 'yes', 'amount': 2972168.2919956637, 'loan_type': 2, 'repayment_date': 154}]
+2026-10-27 14:28:18,266 - Stocklogger - DEBUG - cash: 311567.23964643973, stock a: 29744, stock b:48965, debt: [{'loan': 'yes', 'amount': 1337772.2611095593, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 14:28:18,266 - Stocklogger - DEBUG - cash: 3597518.5515081524, stock a: 33437, stock b:3659, debt: [{'loan': 'yes', 'amount': 758338.384646643, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 14:28:18,267 - Stocklogger - DEBUG - cash: 1264960.9545248607, stock a: 13102, stock b:50065, debt: [{'loan': 'yes', 'amount': 2899797.7037009564, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 14:28:18,267 - Stocklogger - DEBUG - cash: 422530.8205975914, stock a: 4497, stock b:76636, debt: [{'loan': 'yes', 'amount': 3053788.3816460674, 'loan_type': 0, 'repayment_date': 66}]
+2026-10-27 14:28:18,268 - Stocklogger - DEBUG - cash: 3118258.119288699, stock a: 12587, stock b:4848, debt: [{'loan': 'yes', 'amount': 1296036.966034983, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 14:28:18,269 - Stocklogger - DEBUG - cash: 4207159.446844453, stock a: 114, stock b:198, debt: [{'loan': 'yes', 'amount': 3016053.64596329, 'loan_type': 2, 'repayment_date': 110}]
+2026-10-27 14:28:18,271 - Stocklogger - DEBUG - cash: 2589582.927449812, stock a: 52203, stock b:5867, debt: [{'loan': 'yes', 'amount': 2053772.4650459138, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 14:28:18,271 - Stocklogger - DEBUG - cash: 870193.5225499774, stock a: 91383, stock b:11341, debt: [{'loan': 'yes', 'amount': 687138.5323377121, 'loan_type': 1, 'repayment_date': 176}]
+2026-10-27 14:28:18,271 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 14:28:18,272 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 14:28:20,753 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 819514.1671049028, 'repayment_date': 67}
+2026-10-27 14:28:23,956 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1071510.1125487532, 'repayment_date': 23}
+2026-10-27 14:28:26,234 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2985857.2336453414, 'repayment_date': 67}
+2026-10-27 14:28:28,100 - Stocklogger - INFO - INFO: Agent 3 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1132490.8743017693, 'repayment_date': 45}
+2026-10-27 14:28:30,641 - Stocklogger - INFO - INFO: Agent 4 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1070169.612721531, 'repayment_date': 45}
+2026-10-27 14:28:32,647 - Stocklogger - INFO - INFO: Agent 5 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 3479348.716396653, 'repayment_date': 67}
+2026-10-27 14:28:34,295 - Stocklogger - INFO - INFO: Agent 6 decide not to loan
+2026-10-27 14:28:36,048 - Stocklogger - INFO - INFO: Agent 7 decide not to loan
+2026-10-27 14:28:38,639 - Stocklogger - INFO - INFO: Agent 8 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2106094.670075832, 'repayment_date': 67}
+2026-10-27 14:28:40,295 - Stocklogger - INFO - INFO: Agent 9 decide not to loan
+2026-10-27 14:28:41,939 - Stocklogger - INFO - INFO: Agent 10 decide not to loan
+2026-10-27 14:28:44,798 - Stocklogger - INFO - INFO: Agent 11 decide not to loan
+2026-10-27 14:28:50,565 - Stocklogger - INFO - INFO: Agent 12 decide not to loan
+2026-10-27 14:28:58,026 - Stocklogger - INFO - INFO: Agent 13 decide not to loan
+2026-10-27 14:29:04,141 - Stocklogger - INFO - INFO: Agent 14 decide not to loan
+2026-10-27 14:29:10,684 - Stocklogger - INFO - INFO: Agent 15 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 2233748.2449538116, 'repayment_date': 45}
+2026-10-27 14:29:19,027 - Stocklogger - INFO - INFO: Agent 16 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 158229.27149848454, 'repayment_date': 23}
+2026-10-27 14:29:22,866 - Stocklogger - INFO - INFO: Agent 17 decide not to loan
+2026-10-27 14:29:28,674 - Stocklogger - INFO - INFO: Agent 18 decide not to loan
+2026-10-27 14:29:37,496 - Stocklogger - INFO - INFO: Agent 19 decide not to loan
+2026-10-27 14:29:40,747 - Stocklogger - INFO - INFO: Agent 20 decide not to loan
+2026-10-27 14:29:49,714 - Stocklogger - DEBUG - Wrong json content in response: {
+    "loan": "yes",
+    "loan_type": 2,
+    "amount": 2392419.8861947223
+}
+2026-10-27 14:29:54,977 - Stocklogger - INFO - INFO: Agent 21 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1915092.8471354865, 'repayment_date': 67}
+2026-10-27 14:30:01,149 - Stocklogger - INFO - INFO: Agent 22 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 951309.597767482, 'repayment_date': 67}
+2026-10-27 14:30:08,449 - Stocklogger - INFO - INFO: Agent 23 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1202171.420779969, 'repayment_date': 23}
+2026-10-27 14:30:15,871 - Stocklogger - INFO - INFO: Agent 24 decide not to loan
+2026-10-27 14:30:32,621 - Stocklogger - INFO - INFO: Agent 25 decide not to loan
+2026-10-27 14:30:34,331 - Stocklogger - INFO - INFO: Agent 26 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2000000, 'repayment_date': 67}
+2026-10-27 14:30:37,711 - Stocklogger - INFO - INFO: Agent 27 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 500000, 'repayment_date': 23}
+2026-10-27 14:30:39,607 - Stocklogger - INFO - INFO: Agent 28 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1751435.270983519, 'repayment_date': 67}
+2026-10-27 14:30:47,423 - Stocklogger - INFO - INFO: Agent 29 decide not to loan
+2026-10-27 14:30:50,790 - Stocklogger - INFO - INFO: Agent 30 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1915944.5893195255, 'repayment_date': 45}
+2026-10-27 14:31:10,331 - Stocklogger - WARNING - Groq api retry...Request timed out.
+2026-10-27 14:31:26,475 - Stocklogger - INFO - INFO: Agent 31 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 386824.9164023171, 'repayment_date': 23}
+2026-10-27 14:31:45,327 - Stocklogger - WARNING - Groq api retry...Request timed out.
+2026-10-27 14:31:48,645 - Stocklogger - INFO - INFO: Agent 32 decide not to loan
+2026-10-27 14:31:50,150 - Stocklogger - INFO - INFO: Agent 33 decide not to loan
+2026-10-27 14:31:51,824 - Stocklogger - INFO - INFO: Agent 34 decide not to loan
+2026-10-27 14:31:53,627 - Stocklogger - INFO - INFO: Agent 35 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 739836.5992258228, 'repayment_date': 23}
+2026-10-27 14:31:56,098 - Stocklogger - INFO - INFO: Agent 36 decide not to loan
+2026-10-27 14:31:58,141 - Stocklogger - INFO - INFO: Agent 37 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1176135.2888265732, 'repayment_date': 67}
+2026-10-27 14:31:59,876 - Stocklogger - INFO - INFO: Agent 38 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 905014.527098078, 'repayment_date': 67}
+2026-10-27 14:32:01,776 - Stocklogger - INFO - INFO: Agent 39 decide not to loan
+2026-10-27 14:32:03,695 - Stocklogger - INFO - INFO: Agent 40 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1614989.561521344, 'repayment_date': 23}
+2026-10-27 14:32:05,798 - Stocklogger - INFO - INFO: Agent 41 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 800000, 'repayment_date': 67}
+2026-10-27 14:32:18,162 - Stocklogger - INFO - INFO: Agent 42 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1838035.1435368801, 'repayment_date': 67}
+2026-10-27 14:32:20,468 - Stocklogger - INFO - INFO: Agent 43 decide not to loan
+2026-10-27 14:32:26,079 - Stocklogger - WARNING - Groq api retry...Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkxz5beta95v1g4pa85vsb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6801, Requested 1257. Please try again in 435ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-10-27 14:32:32,632 - Stocklogger - INFO - INFO: Agent 44 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 830094.9458239037, 'repayment_date': 23}
+2026-10-27 14:32:34,371 - Stocklogger - INFO - INFO: Agent 45 decide not to loan
+2026-10-27 14:32:41,384 - Stocklogger - INFO - INFO: Agent 46 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1068033.782218732, 'repayment_date': 67}
+2026-10-27 14:32:49,194 - Stocklogger - INFO - INFO: Agent 47 decide not to loan
+2026-10-27 14:32:56,711 - Stocklogger - INFO - INFO: Agent 48 decide not to loan
+2026-10-27 14:33:03,662 - Stocklogger - INFO - INFO: Agent 49 decide not to loan
+2026-10-27 14:33:03,664 - Stocklogger - DEBUG - SESSION 1
+2026-10-27 14:33:19,059 - Stocklogger - INFO - INFO: Agent 24 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.5}
+2026-10-27 14:33:31,496 - Stocklogger - INFO - INFO: Agent 16 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.5}
+2026-10-27 14:33:31,620 - Stocklogger - INFO - ACTION - BUY:24, SELL:16, STOCK:B, PRICE:42.5, AMOUNT:5000
+2026-10-27 14:33:49,133 - Stocklogger - INFO - INFO: Agent 7 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 1000, 'price': 42.5}
+2026-10-27 14:33:49,282 - Stocklogger - INFO - ACTION - BUY:24, SELL:7, STOCK:B, PRICE:42.5, AMOUNT:0
+2026-10-27 14:34:03,158 - Stocklogger - INFO - INFO: Agent 44 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 1000, 'price': 42.5}
+2026-10-27 14:34:03,191 - Stocklogger - INFO - ACTION - BUY:44, SELL:7, STOCK:B, PRICE:42.5, AMOUNT:1000
+2026-10-27 14:34:17,000 - Stocklogger - INFO - INFO: Agent 11 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 10000, 'price': 42.2}
+2026-10-27 14:34:32,341 - Stocklogger - INFO - INFO: Agent 29 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.2}
+2026-10-27 14:34:32,412 - Stocklogger - INFO - ACTION - BUY:11, SELL:29, STOCK:B, PRICE:42.2, AMOUNT:5000
+2026-10-27 14:34:44,324 - Stocklogger - INFO - INFO: Agent 35 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.2}
+2026-10-27 14:35:00,506 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 10000, 'price': 42.2}
+2026-10-27 14:35:00,550 - Stocklogger - INFO - ACTION - BUY:11, SELL:0, STOCK:B, PRICE:42.2, AMOUNT:5000
+2026-10-27 14:35:00,570 - Stocklogger - INFO - ACTION - BUY:35, SELL:0, STOCK:B, PRICE:42.2, AMOUNT:5000
+2026-10-27 14:35:16,893 - Stocklogger - INFO - INFO: Agent 12 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.1}
+2026-10-27 14:35:33,690 - Stocklogger - INFO - INFO: Agent 5 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.1}
+2026-10-27 14:35:33,769 - Stocklogger - INFO - ACTION - BUY:5, SELL:12, STOCK:B, PRICE:42.1, AMOUNT:5000
+2026-10-27 14:35:47,554 - Stocklogger - INFO - INFO: Agent 10 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 20000, 'price': 42.2}
+2026-10-27 14:36:03,682 - Stocklogger - INFO - INFO: Agent 34 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 20000, 'price': 42.2}
+2026-10-27 14:36:03,719 - Stocklogger - INFO - ACTION - BUY:35, SELL:34, STOCK:B, PRICE:42.2, AMOUNT:0
+2026-10-27 14:36:03,742 - Stocklogger - INFO - ACTION - BUY:10, SELL:34, STOCK:B, PRICE:42.2, AMOUNT:20000
+2026-10-27 14:36:18,941 - Stocklogger - INFO - INFO: Agent 9 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.2}
+2026-10-27 14:36:18,998 - Stocklogger - INFO - ACTION - BUY:10, SELL:9, STOCK:B, PRICE:42.2, AMOUNT:0
+2026-10-27 14:36:35,179 - Stocklogger - INFO - INFO: Agent 40 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 10000, 'price': 42.2}
+2026-10-27 14:36:35,223 - Stocklogger - INFO - ACTION - BUY:40, SELL:9, STOCK:B, PRICE:42.2, AMOUNT:5000
+2026-10-27 14:36:52,315 - Stocklogger - INFO - INFO: Agent 37 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 1161, 'price': 42.2}
+2026-10-27 14:36:52,370 - Stocklogger - INFO - ACTION - BUY:40, SELL:37, STOCK:B, PRICE:42.2, AMOUNT:1161
+2026-10-27 14:37:07,376 - Stocklogger - INFO - INFO: Agent 36 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 3839, 'price': 42.2}
+2026-10-27 14:37:07,466 - Stocklogger - INFO - ACTION - BUY:40, SELL:36, STOCK:B, PRICE:42.2, AMOUNT:3839
+2026-10-27 14:37:24,090 - Stocklogger - INFO - INFO: Agent 6 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.3}
+2026-10-27 14:37:40,848 - Stocklogger - INFO - INFO: Agent 42 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.31}
+2026-10-27 14:37:55,577 - Stocklogger - INFO - INFO: Agent 23 decide to action: {'action_type': 'buy', 'stock': 'A', 'amount': 90000, 'price': 27.0}
+2026-10-27 14:38:15,080 - Stocklogger - INFO - INFO: Agent 3 decide to action: {'action_type': 'sell', 'stock': 'A', 'amount': 20000, 'price': 27.0}
+2026-10-27 14:38:15,238 - Stocklogger - INFO - ACTION - BUY:23, SELL:3, STOCK:A, PRICE:27.0, AMOUNT:20000
+2026-10-27 14:38:33,094 - Stocklogger - INFO - INFO: Agent 47 decide to action: {'action_type': 'sell', 'stock': 'A', 'amount': 114, 'price': 27.0}
+2026-10-27 14:38:33,179 - Stocklogger - INFO - ACTION - BUY:23, SELL:47, STOCK:A, PRICE:27.0, AMOUNT:114
+2026-10-27 14:38:50,006 - Stocklogger - INFO - INFO: Agent 20 decide to action: {'action_type': 'sell', 'stock': 'A', 'amount': 69886, 'price': 27.0}
+2026-10-27 14:38:50,063 - Stocklogger - INFO - ACTION - BUY:23, SELL:20, STOCK:A, PRICE:27.0, AMOUNT:69886
+2026-10-27 14:39:08,520 - Stocklogger - INFO - INFO: Agent 26 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.3}
+2026-10-27 14:39:08,580 - Stocklogger - INFO - ACTION - BUY:26, SELL:6, STOCK:B, PRICE:42.3, AMOUNT:5000
+2026-10-27 14:39:26,751 - Stocklogger - INFO - INFO: Agent 49 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.31}
+2026-10-27 14:39:26,878 - Stocklogger - INFO - ACTION - BUY:42, SELL:49, STOCK:B, PRICE:42.31, AMOUNT:5000
+2026-10-27 14:39:43,142 - Stocklogger - INFO - INFO: Agent 18 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.5}
+2026-10-27 14:39:59,520 - Stocklogger - INFO - INFO: Agent 14 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.3}
+2026-10-27 14:40:17,137 - Stocklogger - INFO - INFO: Agent 4 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 10000, 'price': 42.5}
+2026-10-27 14:40:17,203 - Stocklogger - INFO - ACTION - BUY:4, SELL:7, STOCK:B, PRICE:42.5, AMOUNT:0
+2026-10-27 14:40:17,218 - Stocklogger - INFO - ACTION - BUY:4, SELL:18, STOCK:B, PRICE:42.5, AMOUNT:5000
+2026-10-27 14:40:34,949 - Stocklogger - INFO - INFO: Agent 46 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 4848, 'price': 42.5}
+2026-10-27 14:40:35,026 - Stocklogger - INFO - ACTION - BUY:4, SELL:46, STOCK:B, PRICE:42.5, AMOUNT:4848
+2026-10-27 14:40:54,521 - Stocklogger - INFO - INFO: Agent 8 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.3}
+2026-10-27 14:40:54,622 - Stocklogger - INFO - ACTION - BUY:8, SELL:6, STOCK:B, PRICE:42.3, AMOUNT:0
+2026-10-27 14:40:54,661 - Stocklogger - INFO - ACTION - BUY:8, SELL:14, STOCK:B, PRICE:42.3, AMOUNT:5000
+2026-10-27 14:41:12,814 - Stocklogger - INFO - INFO: Agent 41 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 152, 'price': 42.5}
+2026-10-27 14:41:12,917 - Stocklogger - INFO - ACTION - BUY:4, SELL:41, STOCK:B, PRICE:42.5, AMOUNT:152
+2026-10-27 14:41:29,848 - Stocklogger - INFO - INFO: Agent 28 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 20000, 'price': 42.3}
+2026-10-27 14:41:29,940 - Stocklogger - INFO - ACTION - BUY:28, SELL:14, STOCK:B, PRICE:42.3, AMOUNT:0
+2026-10-27 14:41:46,639 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 20000, 'price': 42.3}
+2026-10-27 14:41:46,811 - Stocklogger - INFO - ACTION - BUY:28, SELL:2, STOCK:B, PRICE:42.3, AMOUNT:20000
+2026-10-27 14:42:03,636 - Stocklogger - INFO - INFO: Agent 1 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 60000, 'price': 42.5}
+2026-10-27 14:42:20,298 - Stocklogger - INFO - INFO: Agent 17 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 1875, 'price': 42.5}
+2026-10-27 14:42:20,351 - Stocklogger - INFO - ACTION - BUY:4, SELL:17, STOCK:B, PRICE:42.5, AMOUNT:0
+2026-10-27 14:42:20,373 - Stocklogger - INFO - ACTION - BUY:1, SELL:17, STOCK:B, PRICE:42.5, AMOUNT:1875
+2026-10-27 14:42:37,328 - Stocklogger - INFO - INFO: Agent 38 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 12246, 'price': 42.5}
+2026-10-27 14:42:37,396 - Stocklogger - INFO - ACTION - BUY:1, SELL:38, STOCK:B, PRICE:42.5, AMOUNT:12246
+2026-10-27 14:42:53,485 - Stocklogger - INFO - INFO: Agent 33 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.31}
+2026-10-27 14:42:53,594 - Stocklogger - INFO - ACTION - BUY:42, SELL:33, STOCK:B, PRICE:42.31, AMOUNT:0
+2026-10-27 14:43:12,864 - Stocklogger - INFO - INFO: Agent 21 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 50000, 'price': 42.3}
+2026-10-27 14:43:30,636 - Stocklogger - INFO - INFO: Agent 30 decide to action: {'action_type': 'sell', 'stock': 'A', 'amount': 47775, 'price': 27.0}
+2026-10-27 14:43:30,730 - Stocklogger - INFO - ACTION - BUY:23, SELL:30, STOCK:A, PRICE:27.0, AMOUNT:0
+2026-10-27 14:43:49,119 - Stocklogger - INFO - INFO: Agent 45 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 20000, 'price': 42.5}
+2026-10-27 14:43:49,182 - Stocklogger - INFO - ACTION - BUY:1, SELL:45, STOCK:B, PRICE:42.5, AMOUNT:20000
+2026-10-27 14:44:07,550 - Stocklogger - INFO - INFO: Agent 19 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 6096, 'price': 42.5}
+2026-10-27 14:44:07,776 - Stocklogger - INFO - ACTION - BUY:1, SELL:19, STOCK:B, PRICE:42.5, AMOUNT:6096
+2026-10-27 14:44:24,007 - Stocklogger - INFO - INFO: Agent 43 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 3659, 'price': 42.5}
+2026-10-27 14:44:24,114 - Stocklogger - INFO - ACTION - BUY:1, SELL:43, STOCK:B, PRICE:42.5, AMOUNT:3659
+2026-10-27 14:44:41,229 - Stocklogger - INFO - INFO: Agent 25 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 23707, 'price': 42.4}
+2026-10-27 14:44:59,889 - Stocklogger - INFO - INFO: Agent 31 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 28707, 'price': 42.4}
+2026-10-27 14:44:59,964 - Stocklogger - INFO - ACTION - BUY:31, SELL:25, STOCK:B, PRICE:42.4, AMOUNT:23707
+2026-10-27 14:45:20,758 - Stocklogger - INFO - INFO: Agent 39 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 42023, 'price': 42.3}
+2026-10-27 14:45:20,831 - Stocklogger - INFO - ACTION - BUY:28, SELL:39, STOCK:B, PRICE:42.3, AMOUNT:0
+2026-10-27 14:45:20,924 - Stocklogger - INFO - ACTION - BUY:21, SELL:39, STOCK:B, PRICE:42.3, AMOUNT:42023
+2026-10-27 14:45:44,901 - Stocklogger - INFO - INFO: Agent 32 decide to action: {'action_type': 'buy', 'stock': 'A', 'amount': 40000, 'price': 27.0}
+2026-10-27 14:45:44,959 - Stocklogger - INFO - ACTION - BUY:32, SELL:30, STOCK:A, PRICE:27.0, AMOUNT:40000
+2026-10-27 14:46:02,440 - Stocklogger - INFO - INFO: Agent 22 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.31}
+2026-10-27 14:46:02,497 - Stocklogger - INFO - ACTION - BUY:22, SELL:33, STOCK:B, PRICE:42.31, AMOUNT:5000
+2026-10-27 14:46:21,310 - Stocklogger - INFO - INFO: Agent 48 decide to action: {'action_type': 'sell', 'stock': 'A', 'amount': 7775, 'price': 27.0}
+2026-10-27 14:46:37,599 - Stocklogger - INFO - INFO: Agent 13 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 2587, 'price': 42.5}
+2026-10-27 14:46:37,768 - Stocklogger - INFO - ACTION - BUY:1, SELL:13, STOCK:B, PRICE:42.5, AMOUNT:2587
+2026-10-27 14:46:56,017 - Stocklogger - INFO - INFO: Agent 15 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 26514, 'price': 42.5}
+2026-10-27 14:46:56,152 - Stocklogger - INFO - ACTION - BUY:1, SELL:15, STOCK:B, PRICE:42.5, AMOUNT:13537
+2026-10-27 14:47:14,480 - Stocklogger - INFO - INFO: Agent 27 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 7977, 'price': 42.3}
+2026-10-27 14:47:14,631 - Stocklogger - INFO - ACTION - BUY:21, SELL:27, STOCK:B, PRICE:42.3, AMOUNT:7977
+2026-10-27 14:47:14,686 - Stocklogger - DEBUG - SESSION 2
+2026-10-27 14:47:38,461 - Stocklogger - INFO - INFO: Agent 9 decide to action: {'action_type': 'sell', 'stock': 'B', 'amount': 5000, 'price': 42.4}
+2026-10-27 14:47:38,547 - Stocklogger - INFO - ACTION - BUY:31, SELL:9, STOCK:B, PRICE:42.4, AMOUNT:5000
+2026-10-27 14:47:59,759 - Stocklogger - INFO - INFO: Agent 29 decide to action: {'action_type': 'buy', 'stock': 'A', 'amount': 7775, 'price': 27.0}
+2026-10-27 14:47:59,884 - Stocklogger - INFO - ACTION - BUY:29, SELL:30, STOCK:A, PRICE:27.0, AMOUNT:7775
+2026-10-27 14:48:22,087 - Stocklogger - INFO - INFO: Agent 42 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 12977, 'price': 42.5}
+2026-10-27 14:48:22,278 - Stocklogger - INFO - ACTION - BUY:42, SELL:15, STOCK:B, PRICE:42.5, AMOUNT:12977
+2026-10-27 14:48:42,753 - Stocklogger - INFO - INFO: Agent 7 decide to action: {'action_type': 'sell', 'stock': 'A', 'amount': 5000, 'price': 27.0}
+2026-10-27 14:49:04,391 - Stocklogger - INFO - INFO: Agent 40 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 20000, 'price': 42.3}
+2026-10-27 14:52:42,274 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 14:52:42,277 - Stocklogger - DEBUG - cash: 1173787.5980846179, stock a: 91081, stock b:29218, debt: [{'loan': 'yes', 'amount': 1265830.9801872042, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 370556.74885819847, stock a: 42775, stock b:48672, debt: [{'loan': 'yes', 'amount': 423090.5445470234, 'loan_type': 0, 'repayment_date': 66}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 1278834.9642100183, stock a: 66005, stock b:32859, debt: [{'loan': 'yes', 'amount': 418397.61694739794, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 199214.23911310965, stock a: 158960, stock b:1255, debt: [{'loan': 'yes', 'amount': 1178959.138558231, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 800923.6740820059, stock a: 110040, stock b:1251, debt: [{'loan': 'yes', 'amount': 2023553.7852803003, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 1615400.691282811, stock a: 71148, stock b:10379, debt: [{'loan': 'yes', 'amount': 1714240.8309591694, 'loan_type': 0, 'repayment_date': 66}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 275662.73400132736, stock a: 126138, stock b:29717, debt: [{'loan': 'yes', 'amount': 2745197.8414052143, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 466760.584334967, stock a: 19817, stock b:45475, debt: [{'loan': 'yes', 'amount': 2826193.0046231663, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 1344680.8226773094, stock a: 85305, stock b:28959, debt: [{'loan': 'yes', 'amount': 582938.8079807884, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - cash: 33116.76986121837, stock a: 39221, stock b:44422, debt: [{'loan': 'yes', 'amount': 14205.504001110203, 'loan_type': 0, 'repayment_date': 242}]
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 14:52:42,278 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 14:52:45,383 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2315460.272710209, 'repayment_date': 67}
+2026-10-27 15:37:09,030 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 15:37:09,030 - Stocklogger - DEBUG - cash: 521043.46418117563, stock a: 11503, stock b:70714, debt: [{'loan': 'yes', 'amount': 603196.1685049592, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 15:37:09,030 - Stocklogger - DEBUG - cash: 299363.74886523455, stock a: 106188, stock b:40597, debt: [{'loan': 'yes', 'amount': 1066489.8872828833, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 1825483.2269334875, stock a: 88023, stock b:4124, debt: [{'loan': 'yes', 'amount': 1487201.5414076133, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 1519695.5884439456, stock a: 86959, stock b:18618, debt: [{'loan': 'yes', 'amount': 2975476.984829526, 'loan_type': 2, 'repayment_date': 22}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 2528754.1046759617, stock a: 27953, stock b:39019, debt: [{'loan': 'yes', 'amount': 827815.2194900423, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 1795228.1502246903, stock a: 82169, stock b:7486, debt: [{'loan': 'yes', 'amount': 1481731.6577795125, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 1168060.618797408, stock a: 64001, stock b:43090, debt: [{'loan': 'yes', 'amount': 576166.7156113609, 'loan_type': 0, 'repayment_date': 22}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 1340280.528530916, stock a: 50241, stock b:17195, debt: [{'loan': 'yes', 'amount': 2654540.654705457, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 2050828.3208037266, stock a: 6682, stock b:42877, debt: [{'loan': 'yes', 'amount': 1077016.5123970544, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 226402.56906899804, stock a: 147651, stock b:13609, debt: [{'loan': 'yes', 'amount': 2019593.4591074, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 1092948.2732795454, stock a: 56112, stock b:35064, debt: [{'loan': 'yes', 'amount': 3120677.1837681746, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 15:37:09,031 - Stocklogger - DEBUG - cash: 3714884.509853245, stock a: 37657, stock b:1202, debt: [{'loan': 'yes', 'amount': 4489568.555530633, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 16:13:31,157 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 1885705.0100287974, stock a: 3323, stock b:55537, debt: [{'loan': 'yes', 'amount': 795865.0560548109, 'loan_type': 2, 'repayment_date': 132}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 113141.78584703572, stock a: 124877, stock b:28687, debt: [{'loan': 'yes', 'amount': 1763746.3118920722, 'loan_type': 2, 'repayment_date': 264}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 3057808.895388039, stock a: 29948, stock b:7538, debt: [{'loan': 'yes', 'amount': 933314.005316393, 'loan_type': 0, 'repayment_date': 154}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 467249.5516958158, stock a: 34302, stock b:42071, debt: [{'loan': 'yes', 'amount': 241346.79224917744, 'loan_type': 0, 'repayment_date': 220}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 2520976.2842379604, stock a: 64451, stock b:4174, debt: [{'loan': 'yes', 'amount': 4020557.0123182093, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 37009.64962477571, stock a: 35113, stock b:82800, debt: [{'loan': 'yes', 'amount': 2416171.4066116353, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 1489748.4711983604, stock a: 100428, stock b:13950, debt: [{'loan': 'yes', 'amount': 563346.4491749163, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 16:13:31,158 - Stocklogger - DEBUG - cash: 48116.007525035864, stock a: 19275, stock b:63047, debt: [{'loan': 'yes', 'amount': 1302958.091668099, 'loan_type': 1, 'repayment_date': 154}]
+2026-10-27 16:13:31,159 - Stocklogger - DEBUG - cash: 177841.944285006, stock a: 113525, stock b:24045, debt: [{'loan': 'yes', 'amount': 1112130.623295624, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 16:13:31,159 - Stocklogger - DEBUG - cash: 687030.9828777588, stock a: 91091, stock b:17166, debt: [{'loan': 'yes', 'amount': 367635.35405141435, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 16:13:31,159 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 16:13:31,159 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 16:13:33,921 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2728031.277919175, 'repayment_date': 67}
+2026-10-27 16:14:07,921 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 16:14:07,921 - Stocklogger - DEBUG - cash: 3057411.3810802223, stock a: 18436, stock b:27667, debt: [{'loan': 'yes', 'amount': 3831386.6183718513, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 16:14:07,921 - Stocklogger - DEBUG - cash: 92744.93231508862, stock a: 7877, stock b:84034, debt: [{'loan': 'yes', 'amount': 2273943.001746438, 'loan_type': 0, 'repayment_date': 44}]
+2026-10-27 16:14:07,921 - Stocklogger - DEBUG - cash: 1054233.6403517504, stock a: 53370, stock b:33134, debt: [{'loan': 'yes', 'amount': 2119363.832433375, 'loan_type': 0, 'repayment_date': 22}]
+2026-10-27 16:14:07,921 - Stocklogger - DEBUG - cash: 3558328.258433212, stock a: 28542, stock b:14476, debt: [{'loan': 'yes', 'amount': 1889356.129258644, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 1697901.0192036636, stock a: 59246, stock b:26089, debt: [{'loan': 'yes', 'amount': 2361211.99246798, 'loan_type': 1, 'repayment_date': 132}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 3454009.128386401, stock a: 1928, stock b:9860, debt: [{'loan': 'yes', 'amount': 1199409.4924050574, 'loan_type': 2, 'repayment_date': 132}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 456353.2147373245, stock a: 22974, stock b:74055, debt: [{'loan': 'yes', 'amount': 540752.6989714906, 'loan_type': 1, 'repayment_date': 88}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 1417663.020271559, stock a: 976, stock b:7101, debt: [{'loan': 'yes', 'amount': 1045953.6312011364, 'loan_type': 0, 'repayment_date': 22}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 2031956.2771105582, stock a: 102257, stock b:3667, debt: [{'loan': 'yes', 'amount': 4124006.022318716, 'loan_type': 0, 'repayment_date': 44}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 719910.0488561805, stock a: 27345, stock b:42651, debt: [{'loan': 'yes', 'amount': 1011732.786667911, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 2676903.5310287876, stock a: 5373, stock b:42872, debt: [{'loan': 'yes', 'amount': 2723398.247517163, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 16:14:07,922 - Stocklogger - DEBUG - cash: 124360.58170984643, stock a: 16109, stock b:85291, debt: [{'loan': 'yes', 'amount': 915313.5275655267, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 16:36:36,651 - Stocklogger - DEBUG - cash: 2433624.315876363, stock a: 65032, stock b:11053, debt: [{'loan': 'yes', 'amount': 4316280.219338378, 'loan_type': 2, 'repayment_date': 44}]
+2026-10-27 16:36:36,651 - Stocklogger - DEBUG - cash: 1069022.877022464, stock a: 74777, stock b:1289, debt: [{'loan': 'yes', 'amount': 914898.7174319689, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 16:36:36,651 - Stocklogger - DEBUG - cash: 297386.7900266225, stock a: 56050, stock b:52847, debt: [{'loan': 'yes', 'amount': 3148737.944193342, 'loan_type': 0, 'repayment_date': 220}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 823960.74098473, stock a: 120127, stock b:2835, debt: [{'loan': 'yes', 'amount': 909247.9519718927, 'loan_type': 2, 'repayment_date': 176}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 719062.0304671358, stock a: 59534, stock b:62679, debt: [{'loan': 'yes', 'amount': 2568952.946657822, 'loan_type': 0, 'repayment_date': 176}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 240281.1755344536, stock a: 62311, stock b:61208, debt: [{'loan': 'yes', 'amount': 3179431.050294434, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 10661.481485973456, stock a: 28171, stock b:95813, debt: [{'loan': 'yes', 'amount': 1914280.4419595243, 'loan_type': 1, 'repayment_date': 22}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 462981.6797159186, stock a: 125560, stock b:12961, debt: [{'loan': 'yes', 'amount': 1529859.639066627, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 2318290.7154563903, stock a: 8203, stock b:50941, debt: [{'loan': 'yes', 'amount': 2014762.9183638133, 'loan_type': 1, 'repayment_date': 66}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 2326626.3454279136, stock a: 84790, stock b:3884, debt: [{'loan': 'yes', 'amount': 2654124.382612387, 'loan_type': 2, 'repayment_date': 220}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 38989.55372562796, stock a: 84591, stock b:12310, debt: [{'loan': 'yes', 'amount': 1084730.2466876684, 'loan_type': 2, 'repayment_date': 66}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 2286673.699018458, stock a: 3895, stock b:18598, debt: [{'loan': 'yes', 'amount': 545469.8343062086, 'loan_type': 0, 'repayment_date': 198}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 1207702.443151511, stock a: 36520, stock b:53399, debt: [{'loan': 'yes', 'amount': 3323485.008165552, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 16:36:36,652 - Stocklogger - DEBUG - cash: 342950.19022904325, stock a: 35825, stock b:51151, debt: [{'loan': 'yes', 'amount': 1702529.7996423626, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - cash: 1179116.645749166, stock a: 113180, stock b:14911, debt: [{'loan': 'yes', 'amount': 175509.69698616193, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - cash: 35630.73947412454, stock a: 150021, stock b:3139, debt: [{'loan': 'yes', 'amount': 1793001.8154022899, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - cash: 2827187.64015274, stock a: 26692, stock b:7261, debt: [{'loan': 'yes', 'amount': 1194702.0417818737, 'loan_type': 1, 'repayment_date': 198}]
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - cash: 244636.26981610255, stock a: 65454, stock b:33895, debt: [{'loan': 'yes', 'amount': 448136.3558787993, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - cash: 2153306.9217211027, stock a: 9869, stock b:13204, debt: [{'loan': 'yes', 'amount': 1670554.9796569853, 'loan_type': 0, 'repayment_date': 110}]
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 16:36:36,653 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 16:36:39,148 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 888072.097708371, 'repayment_date': 67}
+2026-10-27 16:36:40,989 - Stocklogger - INFO - INFO: Agent 1 decide not to loan
+2026-10-27 16:36:43,142 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1763468.407918375, 'repayment_date': 45}
+2026-10-27 16:36:45,443 - Stocklogger - INFO - INFO: Agent 3 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1155362.569915924, 'repayment_date': 23}
+2026-10-27 16:36:47,551 - Stocklogger - INFO - INFO: Agent 4 decide not to loan
+2026-10-27 16:36:49,792 - Stocklogger - INFO - INFO: Agent 5 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1500000, 'repayment_date': 45}
+2026-10-27 16:36:52,260 - Stocklogger - INFO - INFO: Agent 6 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2500000, 'repayment_date': 67}
+2026-10-27 16:36:54,452 - Stocklogger - INFO - INFO: Agent 7 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 697691.2740704226, 'repayment_date': 23}
+2026-10-27 16:36:56,805 - Stocklogger - INFO - INFO: Agent 8 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 801743.0747918421, 'repayment_date': 45}
+2026-10-27 16:36:58,713 - Stocklogger - INFO - INFO: Agent 9 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1011732.786667911, 'repayment_date': 67}
+2026-10-27 16:37:00,933 - Stocklogger - INFO - INFO: Agent 10 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1907691.2885116246, 'repayment_date': 23}
+2026-10-27 16:37:02,792 - Stocklogger - INFO - INFO: Agent 11 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2326625.5665787924, 'repayment_date': 67}
+2026-10-27 16:37:08,918 - Stocklogger - INFO - INFO: Agent 12 decide not to loan
+2026-10-27 16:37:14,121 - Stocklogger - INFO - INFO: Agent 13 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 2211454.1295904946, 'repayment_date': 23}
+2026-10-27 16:37:21,740 - Stocklogger - INFO - INFO: Agent 14 decide not to loan
+2026-10-27 16:37:28,142 - Stocklogger - INFO - INFO: Agent 15 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 3252022.3590128366, 'repayment_date': 67}
+2026-10-27 16:37:33,948 - Stocklogger - INFO - INFO: Agent 16 decide not to loan
+2026-10-27 16:37:40,118 - Stocklogger - INFO - INFO: Agent 17 decide not to loan
+2026-10-27 16:37:46,817 - Stocklogger - INFO - INFO: Agent 18 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1914280.4419595243, 'repayment_date': 45}
+2026-10-27 16:37:53,938 - Stocklogger - INFO - INFO: Agent 19 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1313665.23, 'repayment_date': 67}
+2026-10-27 16:38:00,743 - Stocklogger - INFO - INFO: Agent 20 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 659466.0, 'repayment_date': 45}
+2026-10-27 16:38:09,247 - Stocklogger - INFO - INFO: Agent 21 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 2107604.012815526, 'repayment_date': 67}
+2026-10-27 16:38:17,927 - Stocklogger - INFO - INFO: Agent 22 decide not to loan
+2026-10-27 16:38:23,965 - Stocklogger - INFO - INFO: Agent 23 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 2630831.9897122495, 'repayment_date': 23}
+2026-10-27 16:38:35,688 - Stocklogger - INFO - INFO: Agent 24 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1117178.409985959, 'repayment_date': 67}
+2026-10-27 16:38:41,811 - Stocklogger - INFO - INFO: Agent 25 decide not to loan
+2026-10-27 16:38:48,041 - Stocklogger - INFO - INFO: Agent 26 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 175509.69698616193, 'repayment_date': 23}
+2026-10-27 16:38:54,200 - Stocklogger - INFO - INFO: Agent 27 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1793001.8154022899, 'repayment_date': 23}
+2026-10-27 16:39:01,774 - Stocklogger - INFO - INFO: Agent 28 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1194702.0417818737, 'repayment_date': 45}
+2026-10-27 16:39:08,458 - Stocklogger - INFO - INFO: Agent 29 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 2532765.323058504, 'repayment_date': 45}
+2026-10-27 16:39:14,124 - Stocklogger - INFO - INFO: Agent 30 decide not to loan
+2026-10-27 16:39:14,124 - Stocklogger - DEBUG - SESSION 1
+2026-10-27 16:40:14,588 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 50000, 'price': 42.2}
+2026-10-27 16:40:15,117 - Stocklogger - WARNING - Groq api retry (1/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:20,246 - Stocklogger - WARNING - Groq api retry (2/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:25,403 - Stocklogger - WARNING - Groq api retry (3/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:30,557 - Stocklogger - WARNING - Groq api retry (4/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:35,709 - Stocklogger - WARNING - Groq api retry (5/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:40,943 - Stocklogger - WARNING - Groq api retry (6/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:45,947 - Stocklogger - ERROR - ERROR: GROQ API FAILED. SKIP THIS INTERACTION.
+2026-10-27 16:40:46,288 - Stocklogger - WARNING - Groq api retry (1/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:51,520 - Stocklogger - WARNING - Groq api retry (2/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:40:56,886 - Stocklogger - WARNING - Groq api retry (3/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:02,018 - Stocklogger - WARNING - Groq api retry (4/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:07,327 - Stocklogger - WARNING - Groq api retry (5/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:12,704 - Stocklogger - WARNING - Groq api retry (6/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:17,706 - Stocklogger - ERROR - ERROR: GROQ API FAILED. SKIP THIS INTERACTION.
+2026-10-27 16:41:18,007 - Stocklogger - WARNING - Groq api retry (1/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:23,268 - Stocklogger - WARNING - Groq api retry (2/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:28,407 - Stocklogger - WARNING - Groq api retry (3/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:33,688 - Stocklogger - WARNING - Groq api retry (4/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:39,145 - Stocklogger - WARNING - Groq api retry (5/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:44,426 - Stocklogger - WARNING - Groq api retry (6/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 16:41:49,436 - Stocklogger - ERROR - ERROR: GROQ API FAILED. SKIP THIS INTERACTION.
+2026-10-27 16:41:49,738 - Stocklogger - WARNING - Groq api retry (1/6) after 5s... Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4xkx
+2026-10-27 19:09:57,312 - Stocklogger - DEBUG - Agents initial...
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 613944.3844909987, stock a: 88240, stock b:36289, debt: [{'loan': 'yes', 'amount': 4303794.856420912, 'loan_type': 2, 'repayment_date': 242}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 2708357.3438794133, stock a: 19227, stock b:30725, debt: [{'loan': 'yes', 'amount': 2926028.288925752, 'loan_type': 0, 'repayment_date': 132}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 1281653.5433606147, stock a: 97932, stock b:8185, debt: [{'loan': 'yes', 'amount': 1654261.8358863692, 'loan_type': 2, 'repayment_date': 220}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 474827.34992737643, stock a: 49165, stock b:61737, debt: [{'loan': 'yes', 'amount': 554085.5493844466, 'loan_type': 1, 'repayment_date': 242}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 1384321.326687028, stock a: 41126, stock b:12453, debt: [{'loan': 'yes', 'amount': 1854442.8039912498, 'loan_type': 0, 'repayment_date': 88}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 625332.1175537463, stock a: 120746, stock b:24410, debt: [{'loan': 'yes', 'amount': 2227404.4035637244, 'loan_type': 1, 'repayment_date': 44}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 2335330.3449235563, stock a: 21748, stock b:11533, debt: [{'loan': 'yes', 'amount': 1961930.839641179, 'loan_type': 0, 'repayment_date': 132}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 486872.95619496086, stock a: 46012, stock b:30730, debt: [{'loan': 'yes', 'amount': 2313059.5179254776, 'loan_type': 0, 'repayment_date': 220}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 651274.9729384448, stock a: 16543, stock b:2990, debt: [{'loan': 'yes', 'amount': 999119.7948445041, 'loan_type': 1, 'repayment_date': 220}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - cash: 3579616.1431949697, stock a: 3333, stock b:27507, debt: [{'loan': 'yes', 'amount': 107732.09818919771, 'loan_type': 0, 'repayment_date': 264}]
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-10-27 19:09:57,313 - Stocklogger - DEBUG - --------DAY 1---------
+2026-10-27 19:10:00,128 - Stocklogger - INFO - INFO: Agent 0 decide not to loan
+2026-10-27 19:10:01,457 - Stocklogger - INFO - INFO: Agent 1 decide not to loan
